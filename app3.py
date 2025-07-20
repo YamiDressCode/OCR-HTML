@@ -278,7 +278,7 @@ RESULT_HTML = '''
 
 
 # Configura o modelo Gemini
-genai.configure(api_key="AIzaSyCivW8gc-xXxLsM5R_yN0tgTmpjPi5138w")  # Usa a chave da variável de ambiente
+genai.configure(api_key="")  # Usa a chave da variável de ambiente
 
 model = genai.GenerativeModel('models/gemini-2.0-flash')
 
