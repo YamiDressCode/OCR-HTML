@@ -17,7 +17,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyCivW8gc-xXxLsM5R_yN0tgTmpjPi5138w")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel('models/gemini-2.0-flash')
 
